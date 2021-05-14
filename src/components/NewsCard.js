@@ -11,18 +11,21 @@ function NewsCard({news}) {
     return (
         // <Col>
         <div className='content'>
-        {/* <div className='content-inner'> */}
-            <Col style={styles.col} className="image">
-               <a href={news.link} target="_blank" rel="noreferrer"> 
-                   <img src={news.urlToImage} alt='' width='100%' height="100%"/>
-               </a>
-            </Col>
+            <Col className="img-deploy">
+                <Col style={styles.col} className="image">
+                <a href={news.link} target="_blank" rel="noreferrer"> 
+                    <img src={news.urlToImage} alt='' width='100%' height="100%"/>
+                </a>
+                </Col>
+            
             <Col style={styles.col} className="heading">
+                <div className="news-title">
                 {news.title}
+                </div>
+                
             </Col>
-            {/* </div> */}
+            </Col>
         </div>
-        // </Col>
     )
 }
 

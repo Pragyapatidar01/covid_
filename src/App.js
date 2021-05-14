@@ -10,7 +10,6 @@ import NewTable from './components/NewTable';
 import Worlddata from './components/Worlddata';
 
 
-
 function App() {
   return (
     <div className="App">
