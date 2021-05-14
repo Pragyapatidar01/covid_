@@ -11,7 +11,7 @@ function NewsCard({news}) {
     return (
         // <Col>
         <div className='content'>
-            <Col className="img-deploy">
+           
                 <Col style={styles.col} className="image">
                 <a href={news.link} target="_blank" rel="noreferrer"> 
                     <img src={news.urlToImage} alt='' width='100%' height="100%"/>
@@ -24,7 +24,7 @@ function NewsCard({news}) {
                 </div>
                 
             </Col>
-            </Col>
+            
         </div>
     )
 }

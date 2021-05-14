@@ -4,7 +4,7 @@ import {Line} from 'react-chartjs-2'
 import axios from 'axios'
 
 function Linegraph() {
-   
+    
    const [chartData , setChartData] = useState({})
 
    const chart = () =>{

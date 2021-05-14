@@ -44,7 +44,9 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
-    <News/>
+        <Container>
+          <News/>
+        </Container>
     <br></br>
     </div>
   );
