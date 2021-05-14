@@ -19,10 +19,13 @@ function NewsCard({news}) {
                 </Col>
             
             <Col style={styles.col} className="heading">
+            
                 <div className="news-title">
+                <a href={news.link} className="news-line" target="_blank" rel="noreferrer">
                 {news.title}
+                </a>
                 </div>
-                
+            
             </Col>
             
         </div>
